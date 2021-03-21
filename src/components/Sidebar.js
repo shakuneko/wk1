@@ -1,4 +1,4 @@
-import NavBar from "./NavBar";
+
 import { Layout,Menu } from 'antd';
 
 export default function Sider({title}) {
