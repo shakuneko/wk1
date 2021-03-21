@@ -1,6 +1,6 @@
 import NavBar from "./NavBar";
 import {Link}from "react-router-dom"
-import Sidebar from "./Sidebar";
+
 
 export default function Header({title}) {
     return (
