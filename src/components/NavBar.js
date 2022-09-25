@@ -3,23 +3,20 @@ import { NavLink } from 'react-router-dom';
 export default function NavBar() {
     return (
         <div className="nav-bar">
-            <NavLink to="/tableware" className="nav-item" activeClassName="nav-item--active">
-                Tableware
+            <NavLink to="/" className="nav-item" activeClassName="nav-item--active">
+                主頁
             </NavLink>
-            <NavLink to="/cookware" className="nav-item" activeClassName="nav-item--active">
-                Cookware
+            <NavLink to="/" className="nav-item" activeClassName="nav-item--active">
+                關於我
             </NavLink>
-            <NavLink to="/home-accessories" className="nav-item" activeClassName="nav-item--active">
-                Home accessories
+            <NavLink to="/" className="nav-item" activeClassName="nav-item--active">
+                平面設計
             </NavLink>
-            <NavLink to="/lighting" className="nav-item" activeClassName="nav-item--active">
-                Lighting
+            <NavLink to="/" className="nav-item" activeClassName="nav-item--active">
+                手繪
             </NavLink>
-            <NavLink to="/textile" className="nav-item" activeClassName="nav-item--active">
-                Textile
-            </NavLink>
-            <NavLink to="/furniture" className="nav-item" activeClassName="nav-item--active">
-                Furniture
+            <NavLink to="/" className="nav-item" activeClassName="nav-item--active">
+                建模
             </NavLink>
         </div>
     );

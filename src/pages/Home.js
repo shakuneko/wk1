@@ -8,7 +8,6 @@ import products from "../json/products.json";
 const { Header, Content, Footer ,Sider} = Layout;
 
 
-
 function Home() {
   return (
     <Layout className="container main-layout">
@@ -24,46 +23,41 @@ function Home() {
           }}
       >
           <div className="ham">
-              <Menu theme="dark"
-                    mode="inline" 
+              <Menu 
                     className="menu"
-                    defaultSelectedKeys={['6']}>
+                    defaultSelectedKeys={['1']}>
                 <Menu.Item key="1" className="menu-item">
-                  <NavLink to="/tableware" >
-                    Tableware
+                  <NavLink to="/" >
+                    主頁
                   </NavLink>
                 </Menu.Item>
                 <Menu.Item key="2" className="menu-item">
-                  <NavLink to="/cookware" >
-                    Cookware
+                  <NavLink to="/" >
+                    關於我
                   </NavLink>
                 </Menu.Item>
                 <Menu.Item key="3" className="menu-item">
-                  <NavLink to="/home-accessories" >
-                    Home accessories
+                  <NavLink to="/" >
+                    平面設計
                   </NavLink>
                 </Menu.Item>
                 <Menu.Item key="4" className="menu-item">
-                  <NavLink to="/lighting" >
-                    Lighting
+                  <NavLink to="/" >
+                    手繪
                   </NavLink>
                 </Menu.Item>
                 <Menu.Item key="5" className="menu-item">
-                  <NavLink to="/textile" >
-                    Textile
+                  <NavLink to="/" >
+                    建模
                   </NavLink>
                 </Menu.Item>
-                <Menu.Item key="6" className="menu-item">
-                  <NavLink to="/furniture" >
-                    Furniture
-                  </NavLink>
-                </Menu.Item>
+
               </Menu>
           </div>
         </Sider>
     <Layout>
       <Header className="layout-header">
-        <AppHeader title="NORDIC NEST Shopping Cart"/>
+        <AppHeader title="Yujaa | 作品集"/>
       </Header>
       <Content className="layout-content">
         <ProductList products={products}/>
